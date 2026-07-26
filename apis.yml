@@ -1,8 +1,17 @@
 aid: eleanor-health
 name: Eleanor Health
-description: Eleanor Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Eleanor Health is a value-based, whole-person addiction and mental health care
+  provider delivering virtual and in-person treatment for substance use disorders
+  — including opioid, alcohol, stimulant, and prescription drug use — through
+  medication for addiction treatment (MAT), therapy, peer recovery support, and
+  health coaching. Founded in 2019 and headquartered in Waltham, Massachusetts,
+  the company partners with health plans and Medicaid programs across multiple
+  U.S. states to deliver measurement-based, outcomes-driven behavioral healthcare.
+  Eleanor Health is backed by General Catalyst. It does not publish a public
+  developer API program; member scheduling and clinical records run on
+  athenahealth, and its public GitHub organization holds internal engineering
+  tooling rather than a first-party API.
 url: https://raw.githubusercontent.com/api-evangelist/eleanor-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +19,58 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://www.eleanorhealth.com/wp-content/uploads/2023/09/cropped-EHfavicon-192x192.png
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Behavioral Health
+- Mental Health
+- Addiction Treatment
+- Substance Use Disorder
+- Telehealth
+- Value-Based Care
+- Medication-Assisted Treatment
 apis: []
+common:
+- type: Website
+  url: https://www.eleanorhealth.com/
+- type: Blog
+  url: https://www.eleanorhealth.com/blog
+- type: Support
+  url: https://www.eleanorhealth.com/contact
+- type: GitHubOrganization
+  url: https://github.com/eleanorhealth
+- type: PrivacyPolicy
+  url: https://www.eleanorhealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.eleanorhealth.com/terms-of-use
+- type: Careers
+  url: https://www.eleanorhealth.com/careers
+- type: News
+  url: https://www.eleanorhealth.com/news
+- type: DomainSecurity
+  url: security/eleanor-health-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
